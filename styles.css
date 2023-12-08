@@ -1,0 +1,33 @@
+
+.blog-card-wrapper{
+     max-width: 360px;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+      
+}
+.blog-card-image> img{
+    object-fit: cover;
+    width:100%;
+    height: 160px;
+
+}
+.blog-card{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.blog-card-title{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.blog-card-body{
+    padding: 4px;
+}
+.blog-carf-info{
+    margin-bottom:5px;
+    font-size: 1.5px;
+}
