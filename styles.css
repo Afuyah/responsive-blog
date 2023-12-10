@@ -14,6 +14,11 @@
         max-width: 720px;
     }
 }
+@media screen and (min-width:992px) {
+    .blog-cards-wrapper{
+        max-width: 960px;
+    }
+}
 
 .blog-card-title {
     font-size: 1.5rem;
@@ -32,12 +37,23 @@
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.blog-card:hover{
+    cursor:zoom-in;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
 
 @media screen and (min-width:576px) {
     .blog-card {
         width: calc((100% - 10px - 4px) / 2);
     }
 }
+@media screen and (min-width:760px) {
+    .blog-card {
+        width: calc((100% - 20px - 6px) / 3);
+    }
+}
+
+
 
 .blog-card-info {
     font-size: 1.25rem;
