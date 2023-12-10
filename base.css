@@ -1,6 +1,5 @@
-.html{
-    font-size: 0.6rem;
-
+html{
+    font-size: 0.6em;
 }
 body{
     margin: 0;
@@ -11,36 +10,46 @@ body{
     color: #444444;
     max-width: 1200px;
     margin: auto;
+
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: "inter", sans-serif;
-    font-weight: 600px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "inter", sans-serif ;
+    font-weight: 600;
     color: #222222;
+
 }
 h1{
     font-size: 2.5rem;
     text-align: center;
 }
 h2{
-    font-size: 1.5rem;
-    text-align: left;
+    font-size: 2rem;
+    text-align: center;
+
 }
 h3{
     font-size: 1.75rem;
+
 }
 h4{
     font-size: 1.5rem;
 }
 h5{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 h6{
     font-size: 1.25rem;
 }
-a:hover, a:focus{
-    color:#1d4cd8
-}
 a{
     text-decoration: none;
-    color: #3b82f6;
+    color: #1d4cd8;
+}
+a:hover,
+a:focus{
+    color:#3b82f6
 }
